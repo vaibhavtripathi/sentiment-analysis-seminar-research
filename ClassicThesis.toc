@@ -1,0 +1,19 @@
+\select@language {american}
+\vspace {-\cftbeforepartskip }
+\select@language {american}
+\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Introduction}}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Sentiment Analysis}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Sentiment analysis research}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Levels of sentiment analysis}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}The obvious approach and why it doesn't work}{4}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}Applications of sentiment analysis}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}Thwarting - A particularly important problem}{7}{section.1.3}
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Examples}}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}A New Section}{11}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Test for a Subsection}{11}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Autem Timeam}{11}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Another Section in This Chapter}{12}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Personas Initialmente}{12}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1.1}A Subsubsection}{12}{subsubsection.2.2.1.1}
+\contentsline {paragraph}{A Paragraph Example}{12}{subsubsection.2.2.1.1}
+\contentsline {subsection}{\numberline {2.2.2}Linguistic Registrate}{13}{subsection.2.2.2}
