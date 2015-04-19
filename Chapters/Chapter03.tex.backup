@@ -9,7 +9,7 @@ come up with the right features, and classification tools will do the rest.
 
 \vspace{8mm}
 
-However, one of the first attempts to solve sentiment analysis as a classification problem came as early as 2002 by Turney. \cite{book} This was an unsupervised approach.
+However, one of the first attempts to solve sentiment analysis as a classification problem came as early as 2002 by Turney. This was an unsupervised approach.
 
 \section{Unsupervised Classification}
 
@@ -168,13 +168,13 @@ The required hyperplane is given by vector $w$. Support vectors are those docume
 
 
 These were the broad classification strategies that have proved very useful in sentiment analysis. Although the performance is nowhere near to perfect, it is still remarkable.
-Moreover, there are deep learning based techniques too, which have proved to be even more useful for sentiment analysis, achieving accuracy as high as 84\%. \cite{tu}
+Moreover, there are deep learning based techniques too, which have proved to be even more useful for sentiment analysis, achieving accuracy as high as 84\%.
 
 \section{Information Retrieval based Sentiment Analysis}
 
 This is also an unsupervised approach like Turney's. Remember we discussed that sentiment words can be ambiguous, meaning differently in different contexts.
 Determining contextual polarity of sentiment words is thus a challenging task. Here, we have discouraged the use of hand-crafted rules or sentiment lexicons.
-Rather, the problem is formulated as an information retrieval problem and solved using information retrieval approach. \cite{ir}
+Rather, the problem is formulated as an information retrieval problem and solved using information retrieval approach.
 
 \vspace{8mm}
 

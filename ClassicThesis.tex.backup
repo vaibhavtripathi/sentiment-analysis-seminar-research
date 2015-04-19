@@ -12,9 +12,6 @@
 \usepackage{framed}
 \usepackage{url}
 \usepackage{geometry}
-\usepackage{amsmath}
-\usepackage{float}
-\usepackage{varwidth}
  \geometry{
  a4paper,
  total={210mm,297mm},
@@ -62,7 +59,17 @@
 \newpage\include{Chapters/Chapter02}
 \newpage\include{Chapters/Chapter04}
 \newpage\include{Chapters/Chapter05}
-\newpage\include{Chapters/Bib}
+
+\begin{thebibliography}{9}
+
+\bibitem{lamport94}
+  Leslie Lamport,
+  \emph{\LaTeX: a document preparation system},
+  Addison Wesley, Massachusetts,
+  2nd edition,
+  1994.
+
+\end{thebibliography}
 
 \end{document}
 

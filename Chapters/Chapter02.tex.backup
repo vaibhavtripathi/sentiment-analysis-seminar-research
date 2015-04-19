@@ -64,7 +64,7 @@ structure doesn't apply.
 Given the above classification, it is to be understood that there are non-trivial overlaps between most of the mentioned categories. For instance, Facebook provides a kind of microblogging 
 type feature in the form of statuses. \cite{url:3}
 
-\section{Social Network Analysis Application in Industry}
+\section{Importance of Social Media}
 
 Awareness is one of the key ingredients to success in industry. If one needs to survive in the market, he/she must know the demands of its consumer as well as the response to its 
 products or services at all times. Ever since sentiment analysis on social media has been possible, companies have become very enthusiastic to use this for themselves. The
@@ -79,18 +79,20 @@ the established firms (e.g. Google, Adobe) have developed their own systems to d
 \subsection{Social Media Marketing}
 
 Facebook conducted a massive psychological experiment on 689,003 users, manipulating their news feeds to assess the effects on their emotions. The details of the experiment
-were published in an article entitled \textquotedblleft Experimental Evidence Of Massive-Scale Emotional Contagion Through Social Networks\textquotedblright published in the journal 
+were published in an article entitled “Experimental Evidence Of Massive-Scale Emotional Contagion Through Social Networks” published in the journal 
 Proceedings of the National Academy of Sciences of the United States of America. In simple words, Facebook has the ability to make you feel good or bad, 
 just by tweaking what shows up in your news feed. 
 
 \vspace{8mm}
 
 However, this was not the first time something of this kind was seen. The idea of emotional contagion is much older, which can be stated simply as 
-\textquotedblleft The sentiment of a social media author influences the sentiment of people in his social media network\textquotedblright. Now, from a company's prespective this can be very useful. If they can
+“The sentiment of a social media author influences the sentiment of people in his social media network”. Now, from a company's prespective this can be very useful. If they can
 sway the emotion of people towards their side, it can do wonders for them. This is what has given rise to a new form of marketing called social media marketing. Hence, there is 
 immense competition between companies to mark their influence on the social media. 
 
-\section{Challenges in social media sentiment analysis}
+\cite{url:4}
+
+\section{Challenges posed by social media}
 
 Sentiment analysis on social media is not straightforward as say, on movie reviews. There is a whole set of problems that researchers have faced. Some of them are:
 
@@ -138,17 +140,4 @@ Now, without the knowledge that \#ProteaFire was a hashtag circulated to support
 But as we have this information, this post suddenly becomes meaningful. When we are working in the social media domain, these kind of entities are our primary target, in fact.
 
 \section{Opinion Spamming}
-
-A key feature of social media is that it enables anyone from anywhere in the
-world to freely express his/her views and opinions without disclosing his/her
-true identity. However, this has a price to pay.
-\vspace{8mm}
-All our effort in analyzing the sentiment from social media assumes that the opinions or posts expressed are genuine and actually belong to a person. Unfortunately, people with
-malicious intents can game the system give and post fake opinions to promote or to discredit target products, services, organizations, or individuals. The worst part is that there
-are commercial companies that are in the business of opinion spamming. Detecting these spams is extremely challenging and out the scope of NLP itself. \cite{book}
-
-\vspace{8mm}
-
-However researchers have tried to find reviewer-specific features that may help in classifying a user as trustworthy or not. Simply stating, looking at the behaviour of a reviewer,
-we can figure out whether the author is a spammer. However, we refrain ourselves from going into details here.
 

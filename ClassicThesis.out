@@ -5,11 +5,38 @@
 \BOOKMARK [2][-]{subsection.1.1.2}{1.1.2 Levels of sentiment analysis}{section.1.1}% 5
 \BOOKMARK [2][-]{subsection.1.1.3}{1.1.3 The obvious approach and why it doesn't work}{section.1.1}% 6
 \BOOKMARK [1][-]{section.1.2}{1.2 Applications of sentiment analysis}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.3}{1.3 Thwarting - A particularly important problem}{chapter.1}% 8
-\BOOKMARK [0][]{chapter.2}{2 Examples}{}% 9
-\BOOKMARK [1][-]{section.2.1}{2.1 A New Section}{chapter.2}% 10
-\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Test for a Subsection}{section.2.1}% 11
-\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Autem Timeam}{section.2.1}% 12
-\BOOKMARK [1][-]{section.2.2}{2.2 Another Section in This Chapter}{chapter.2}% 13
-\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Personas Initialmente}{section.2.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Linguistic Registrate}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.1.2.1}{1.2.1 Decision Making}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.2}{1.2.2 Prediction}{section.1.2}% 9
+\BOOKMARK [1][-]{section.1.3}{1.3 Thwarting - A particularly important problem}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.4}{1.4 Roadmap}{chapter.1}% 11
+\BOOKMARK [0][]{chapter.2}{2 Sentiment Analysis as a Classification Problem}{}% 12
+\BOOKMARK [1][-]{section.2.1}{2.1 Unsupervised Classification}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Extracting of sentiment phrases}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Calculating sentiment score of extracted phrases}{section.2.1}% 15
+\BOOKMARK [2][-]{subsection.2.1.3}{2.1.3 Assigning label to the text}{section.2.1}% 16
+\BOOKMARK [1][-]{section.2.2}{2.2 Supervised Classification}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.1}{2.2.1 Naive Bayes}{section.2.2}% 18
+\BOOKMARK [2][-]{subsection.2.2.2}{2.2.2 Maximum Entropy}{section.2.2}% 19
+\BOOKMARK [2][-]{subsection.2.2.3}{2.2.3 Support Vector Machines}{section.2.2}% 20
+\BOOKMARK [1][-]{section.2.3}{2.3 Information Retrieval based Sentiment Analysis}{chapter.2}% 21
+\BOOKMARK [0][]{chapter.3}{3 Sentiment Analysis on Social Media}{}% 22
+\BOOKMARK [1][-]{section.3.1}{3.1 Taxonomy of Social Networks}{chapter.3}% 23
+\BOOKMARK [2][-]{subsection.3.1.1}{3.1.1 Social Connections}{section.3.1}% 24
+\BOOKMARK [2][-]{subsection.3.1.2}{3.1.2 Microblogging}{section.3.1}% 25
+\BOOKMARK [2][-]{subsection.3.1.3}{3.1.3 Social News}{section.3.1}% 26
+\BOOKMARK [2][-]{subsection.3.1.4}{3.1.4 Media Sharing}{section.3.1}% 27
+\BOOKMARK [2][-]{subsection.3.1.5}{3.1.5 Discussion Forums}{section.3.1}% 28
+\BOOKMARK [1][-]{section.3.2}{3.2 Social Network Analysis Application in Industry}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 Brand Assessment}{section.3.2}% 30
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 Social Media Marketing}{section.3.2}% 31
+\BOOKMARK [1][-]{section.3.3}{3.3 Challenges in social media sentiment analysis}{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Lack of Specificity in Context}{section.3.3}% 33
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Highly informal language}{section.3.3}% 34
+\BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 Social network specific entities}{section.3.3}% 35
+\BOOKMARK [1][-]{section.3.4}{3.4 Opinion Spamming}{chapter.3}% 36
+\BOOKMARK [0][]{chapter.4}{4 Social Media Specific Approaches}{}% 37
+\BOOKMARK [1][-]{section.4.1}{4.1 Classification Features}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.2}{4.2 Dependency Parser for Tweets}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 Challenges}{section.4.2}% 40
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 Design of the dependency parser}{section.4.2}% 41
+\BOOKMARK [1][-]{section.4.3}{4.3 Exploiting the social graph}{chapter.4}% 42

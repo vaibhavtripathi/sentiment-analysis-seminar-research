@@ -212,7 +212,12 @@ The problem at hand is detecting the correct polarity of such thwarted documents
 thwarted or not (then we can deal with it accordingly). This leads to a simpler problem which is to identify whether a given document is thwarted or not. 
 This is called as the problem of detecting turnarounds in sentiment.
 
-%FIGURE
+\begin{figure}[t]
+\includegraphics[scale=0.6]{gfx/flow.png}
+\caption{Thwarting detection system }
+\centering
+\end{figure}
+
 
 \vspace{8mm}
 
@@ -227,19 +232,53 @@ like Latent Dirichlet Allocation (LDA). LDA can learn the key features of a movi
 features, human intervention may be required to provide the necessary components. The obtained list of all components should be then arranged into a proper hierarchy by a
 human annotator.
 
-%FIGURE
+\begin{figure}[t]
+\centering
+\includegraphics[scale=0.6]{gfx/onto.png}
+\caption{Ontology creation for a movie - an example }
+
+\end{figure}
 
 The naive approach to detect thwarting after this would be to check the sentiment score obtained at all nodes in the ontology tree. If different levels exhibit different polarity,
 the document is likely to be thwarted. In procedure, this is done in three distinct steps:
 
 \begin{enumerate}[(a)]%for small alpha-characters within brackets.
 \setlength{\itemsep}{15pt}
-\item \textbf{Dependency Parse: } For every input document, it has to undergo a dependency parsing first. This is essential to identify all the adjective-noun relations.
+\item \textbf{Dependency parse: } For every input document, it has to undergo a dependency parsing first. This is essential to identify all the adjective-noun relations.
 
 \item \textbf{Obtaining polarity at nodes: } Now, for all extracted nouns, we check if it is present in the domain ontology. If it is, the score for the corresponding node
 will be the determined by the associated adjective word. 
 
-\item \textbf{Thwarting detection: } Now, for all extracted nouns, we check if it is present in the domain ontology. If it is, the score for the corresponding node
-will be the determined by the associated adjective word. 
+\item \textbf{Thwarting detection: } Now that we have sentiment scores for all nodes in the ontology, we can summarize the sentiment polarity at each level of the ontology.
+If there is a polarity reversal between levels, we can judge the document as thwarted.
 
 \end{enumerate} 
+
+\vspace{8mm}
+
+However, this method fails to perform well in practical situations, since nodes at the same level may not be equally important for the sentiment of the document. For example,
+For example, say in a camera ontology, the body and video capability might be subjective whereas any fault in the lens or the battery will render the camera useless, hence they are more critical.
+Therefore, a relative weighing is required between all features of the ontology.
+
+\vspace{8mm}
+
+The idea used here is of percolated polarities. This means that polarity at a node is its polarity in the document along with the polarities of
+all its descendants. This is based on the intuition that every word contributes some polarity to its parent node in the domain ontology. We can also define controlled
+percolation, wherein the value added for a particular descendant is a function of its distance from the node.
+
+\vspace{8mm}
+
+For example,
+
+\begin{framed}
+$p(movie) = p(movie) + p(cast)/2 +p(plot)/2 + p(music)/2 + p(acting)/4 + p(script)/4 + p(background-score)/4$
+\end{framed}
+
+A more complicated approach involves using the above as preprocessing to obtain features and then pose the problem of thwarting detection as a classification problem. 
+Ramteke et al. (2013) have used SVM classifier on such features to achieve an AUC score as high as 81\%. 
+
+\section{Roadmap}
+
+So far in this report, the importance of sentiment analysis as a research area has been established and its numerous applications stipulated. 
+
+
